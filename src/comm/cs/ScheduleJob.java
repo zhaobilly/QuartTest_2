@@ -11,7 +11,7 @@ public class ScheduleJob implements Job, Serializable{
 
 	@Override
 	public void execute(JobExecutionContext context) throws JobExecutionException {
-		System.out.println("Hello Quartz");
+		System.out.println("Hello Quartz QuartTest_2");
 	}
 
 }
